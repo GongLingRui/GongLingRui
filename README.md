@@ -38,11 +38,7 @@
 | <!-- total_stars -->56<!-- total_stars --> | <!-- total_forks -->10<!-- total_forks --> |
 
 
-### Stats 与常用语言
 
-| GitHub Stats | Top Languages |
-|:---:|:---:|
-| [![GongLingRui's GitHub stats](https://github-readme-stats.vercel.app/api?username=GongLingRui&show_icons=true&theme=default&hide_border=true&count_private=true&cache_seconds=21600&locale=cn)](https://github.com/GongLingRui) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=GongLingRui&layout=compact&theme=default&hide_border=true&cache_seconds=86400&locale=cn)](https://github.com/GongLingRui) |
 
 ### 连续贡献与活动
 
