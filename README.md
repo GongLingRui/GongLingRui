@@ -29,22 +29,6 @@
 
 ---
 
-## 📊 GitHub 统计
-
-### 所有仓库合计
-
-| ⭐ 总 Stars | 🍴 总 Forks |
-|:---:|:---:|
-| <!-- total_stars -->56<!-- total_stars --> | <!-- total_forks -->10<!-- total_forks --> |
-
-
-
-
-### 连续贡献与活动
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=GongLingRui&theme=default&hide_border=true)](https://github.com/GongLingRui)
-
-[![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=GongLingRui&theme=github-light&hide_border=true)](https://github.com/GongLingRui)
 
 ---
 
