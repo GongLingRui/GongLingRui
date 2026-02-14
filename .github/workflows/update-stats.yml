@@ -1,0 +1,55 @@
+# 复制此文件到你的 GitHub Profile 仓库：
+# 仓库名需与用户名一致，例如 GongLingRui/GongLingRui
+# 复制到该仓库的 .github/workflows/update-stats.yml
+#
+# 作用：自动统计你所有公开仓库的 Star 与 Fork 总数，并更新 README.md
+
+name: Update Profile Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'   # 每天 UTC 0 点（北京时间 8 点）
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get total stars and forks
+        id: stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER: ${{ github.repository_owner }}
+        run: |
+          total_stars=0
+          total_forks=0
+          page=1
+          while true; do
+            resp=$(curl -s -H "Authorization: Bearer $GH_TOKEN" \
+              "https://api.github.com/users/$USER/repos?per_page=100&page=$page")
+            count=$(echo "$resp" | jq 'length')
+            [ "$count" -eq 0 ] && break
+            stars=$(echo "$resp" | jq '[.[].stargazers_count] | add')
+            forks=$(echo "$resp" | jq '[.[].forks_count] | add')
+            total_stars=$((total_stars + stars))
+            total_forks=$((total_forks + forks))
+            page=$((page + 1))
+          done
+          echo "stars=$total_stars" >> $GITHUB_OUTPUT
+          echo "forks=$total_forks" >> $GITHUB_OUTPUT
+
+      - name: Update README
+        run: |
+          sed -i "s/<!-- total_stars -->[0-9]*<!-- total_stars -->/<!-- total_stars -->${{ steps.stats.outputs.stars }}<!-- total_stars -->/g" README.md
+          sed -i "s/<!-- total_forks -->[0-9]*<!-- total_forks -->/<!-- total_forks -->${{ steps.stats.outputs.forks }}<!-- total_forks -->/g" README.md
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: update total stars and forks" && git push)
