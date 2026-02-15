@@ -53,7 +53,7 @@
   <img src="./assets/qrcode_for_gh.jpg" alt="公众号：宫灵瑞" width="200" />
 </p>
 
-欢迎交流技术、求职与协作。
+
 
 ---
 
