@@ -46,7 +46,7 @@
 - **GitHub**: [@GongLingRui](https://github.com/GongLingRui)  
 - **X (Twitter)**: [@VanGong0907](https://x.com/VanGong0907)  
 - **公众号**: 宫灵瑞
-- **微信号**：wanxiaowan03  
+- **微信号**：18954196143  
 
 <p align="center">
   <strong>扫码关注公众号「宫灵瑞」</strong><br/>
