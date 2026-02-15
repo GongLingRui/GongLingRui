@@ -1,4 +1,4 @@
-# 你好，我是宫灵瑞 👋
+# 你好，我是灵瑞 
 
 [![GitHub](https://img.shields.io/badge/GitHub-GongLingRui-181717?style=flat-square&logo=github)](https://github.com/GongLingRui)
 [![微信公众号](https://img.shields.io/badge/公众号-宫灵瑞-07C160?style=flat-square&logo=wechat)](https://github.com/GongLingRui)
