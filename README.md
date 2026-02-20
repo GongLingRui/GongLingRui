@@ -1,8 +1,5 @@
 # 你好，我是灵瑞 
 
-[![GitHub](https://img.shields.io/badge/GitHub-GongLingRui-181717?style=flat-square&logo=github)](https://github.com/GongLingRui)
-[![微信公众号](https://img.shields.io/badge/公众号-宫灵瑞-07C160?style=flat-square&logo=wechat)](https://github.com/GongLingRui)
-[![X](https://img.shields.io/badge/X-@VanGong0907-000000?style=flat-square&logo=x)](https://x.com/VanGong0907)
 
 ---
 
@@ -28,30 +25,6 @@
 | **TypeScript** | 前端 / 全栈、类型安全开发 |
 
 ---
-
-
----
-
-## 📌 精选仓库
-
-- [llm-agents-interview](https://github.com/GongLingRui/llm-agents-interview) — 大模型 / Agent / 上下文工程 / LangGraph / RAG 等面试题整理  
-- [batch-video2](https://github.com/GongLingRui/batch-video2) — 批处理 AI 视频与数字人生成系统  
-- [image-generate](https://github.com/GongLingRui/image-generate) — AI 绘画与视觉大模型整理  
-- [ai-paper](https://github.com/GongLingRui/ai-paper) — AIGC / 论文阅读笔记  
-
----
-
-## 📫 联系我
-
-- **GitHub**: [@GongLingRui](https://github.com/GongLingRui)  
-- **X (Twitter)**: [@VanGong0907](https://x.com/VanGong0907)  
-- **公众号**: 宫灵瑞
-- **微信号**：18954196143  
-
-<p align="center">
-  <strong>扫码关注公众号「宫灵瑞」</strong><br/>
-  <img src="./assets/qrcode_for_gh.jpg" alt="公众号：宫灵瑞" width="200" />
-</p>
 
 
 
