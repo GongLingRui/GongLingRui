@@ -33,3 +33,16 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=GongLingRui&color=blueviolet&style=flat-square" alt="Profile views" />
 </p>
+
+
+## 📫 联系我
+
+- **GitHub**: [@GongLingRui](https://github.com/GongLingRui)  
+- **X (Twitter)**: [@VanGong0907](https://x.com/VanGong0907)  
+- **公众号**: 宫灵瑞
+- **微信号**：18954196143  
+
+<p align="center">
+  <strong>扫码关注公众号「宫灵瑞」</strong><br/>
+  <img src="./assets/qrcode_for_gh.jpg" alt="公众号：宫灵瑞" width="200" />
+</p>
