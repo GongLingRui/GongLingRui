@@ -28,7 +28,6 @@
 
 
 
----
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=GongLingRui&color=blueviolet&style=flat-square" alt="Profile views" />
@@ -38,7 +37,6 @@
 ## 📫 联系我
 
 - **GitHub**: [@GongLingRui](https://github.com/GongLingRui)  
-- **X (Twitter)**: [@VanGong0907](https://x.com/VanGong0907)  
 - **公众号**: 宫灵瑞
 - **微信号**：18954196143  
 
